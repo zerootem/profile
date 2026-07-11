@@ -1,5 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // تحديد إعدادات التطبيق الأساسية
+  app: {
+    head: {
+      htmlAttrs: {
+        dir: 'rtl', // اتجاه الصفحة من اليمين إلى اليسار
+        lang: 'ar'  // تحديد اللغة العربية
+      }
+    }
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',
