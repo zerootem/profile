@@ -1,27 +1,31 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: "نبذة عني"
+description: "تعرف على رحلتي كمطور واجهات ومؤسس موقع ModWeeb، وشغفي بتصميم تجارب المستخدم ودمج تقنيات الذكاء الاصطناعي."
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  مرحباً، أنا **محمد الذاهبي**، مؤسس وصاحب موقع **ModWeeb (مود ويب)**. منذ أكثر من 6 سنوات، وأنا غارق في عالم تطوير المواقع وتصميم الواجهات، حيث أركز على بناء تجارب رقمية ليست وظيفية فحسب، بل بديهية وجذابة للمستخدمين.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  بدأت رحلتي العملية بشغف كبير لفهم تقنيات الويب، وسرعان ما تطور هذا الشغف ليشمل تصميم واجهات المستخدم وتجربة المستخدم. أؤمن بأن أفضل المنتجات الرقمية تولد من تكامل عميق بين التصميم الإبداعي والتنفيذ التقني المتقن.
 
-  ### My Design Philosophy
+  ### فلسفتي في التصميم
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  فلسفتي في التصميم تقوم على **التعاطف مع المستخدم** و**حل المشكلات**. أعتقد أن التصميم العظيم يبدأ بفهم "لماذا" – احتياجات المستخدمين، دوافعهم، ونقاط الألم لديهم. أستخدم البحث، والنماذج الأولية المتكررة (غالباً باستخدام أدوات مثل Figma)، واختبار المستخدم لضمان فعالية الحلول التي أقدمها.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  أسعى دائماً لإنشاء واجهات تشعر المستخدم بالسلاسة، حيث تعمل الوظائف والجماليات بتناغم تام. سواء كنت أصمم واجهات مثالية بالبكسل أو أكتب أكواداً نظيفة باستخدام Vue.js/Nuxt.js، فإن هدفي الأساسي هو تقديم قيمة حقيقية للمستخدم النهائي.
 
-  ### What Drives Me
+  ### ما يحركني
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  ما يبقيني متحمساً لهذا العمل هو التعلم المستمر والتحدي المتمثل في ترجمة الأفكار المعقدة إلى حلول بسيطة وأنيقة. لا شيء يضاهي شعور رؤية تصميم ما يتحول إلى واقع ملموس، ومعرفة أنه يجعل التفاعل الرقمي لأي شخص أسهل أو أكثر متعة.
 
-  ### Beyond the Screen
+  ### طموحي مع ModWeeb والذكاء الاصطناعي
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  بصفتي مؤسس ModWeeb، أسعى لتقديم محتوى تقني متميز باللغة العربية، وأعمل حالياً على دمج أدوات الذكاء الاصطناعي في خدماتي ومنصتي. أرى في الذكاء الاصطناعي مستقبل التجارب الرقمية المخصصة، وأطمح لأن أكون في طليعة من يقدمون هذه الحلول للمستخدم العربي.
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  ### خارج الشاشة
+
+  عندما لا أكون منغمساً في التصميم أو البرمجة، قد تجدني أستكشف أحدث المقاهي في مدينتي، أو أقرأ في كتب التقنية والابتكار، أو أساهم في بعض المشاريع مفتوحة المصدر.
+
+  شكراً لزيارتك. لا تتردد في تصفح [مشاريعي](/projects) أو [التواصل معي](/#contact) إذا كنت ترغب بالتعاون!
 images:
   - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
+    alt: "مساحة العمل الخاصة بي"
   - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+    alt: "رحلة إلى طوكيو"
