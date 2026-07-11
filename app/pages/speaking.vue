@@ -32,7 +32,14 @@ defineOgImage('Portfolio', { title, description })
 
 const { global } = useAppConfig()
 
-const groupedEvents = computed((): Record<Event['category'], Event[]> => {
+// ✅ ترجمة أسماء الفئات
+const categoryLabels: Record<Event['category'], string> = {
+  'Conference': 'مؤتمر',
+  'Live talk': 'محادثة مباشرة',
+  'Podcast': 'بودكاست'
+}
+
+const groupedEvents = computed(() => {
   const events = page.value?.events || []
   const grouped: Record<Event['category'], Event[]> = {
     'Conference': [],
@@ -45,8 +52,12 @@ const groupedEvents = computed((): Record<Event['category'], Event[]> => {
   return grouped
 })
 
+// ✅ تنسيق التاريخ بالعربية
 function formatDate(dateString: string): string {
-  return new Date(dateString).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
+  return new Date(dateString).toLocaleDateString('ar-EG', {
+    year: 'numeric',
+    month: 'long'
+  })
 }
 </script>
 
@@ -56,8 +67,8 @@ function formatDate(dateString: string): string {
       :title="page.title"
       :description="page.description"
       :ui="{
-        title: 'mx-0! text-left',
-        description: 'mx-0! text-left',
+        title: 'mx-0! text-start',      // ✅ من text-left إلى text-start
+        description: 'mx-0! text-start', // ✅ من text-left إلى text-start
         links: 'justify-start'
       }"
     >
@@ -83,7 +94,7 @@ function formatDate(dateString: string): string {
           <h2
             class="lg:sticky lg:top-16 text-xl font-semibold tracking-tight text-highlighted"
           >
-            {{ category.replace(/([A-Z])/g, ' $1').replace(/^./, (str) => str.toUpperCase()) }}s
+            {{ categoryLabels[category as Event['category']] }}
           </h2>
         </div>
 
@@ -91,7 +102,7 @@ function formatDate(dateString: string): string {
           <div
             v-for="(event, index) in eventsInCategory"
             :key="`${category}-${index}`"
-            class="group relative pl-6 border-l border-default"
+            class="group relative pr-6 border-r border-default rtl:pl-6 rtl:border-l rtl:border-r-0"
           >
             <NuxtLink
               v-if="event.url"
@@ -114,14 +125,14 @@ function formatDate(dateString: string): string {
             <UButton
               v-if="event.url"
               target="_blank"
-              :label="event.category === 'Podcast' ? 'Listen' : 'Watch'"
+              :label="event.category === 'Podcast' ? 'استمع' : 'شاهد'"
               variant="link"
-              class="p-0 pt-2 gap-0"
+              class="p-0 pt-2 gap-0 rtl:flex-row-reverse"
             >
               <template #trailing>
                 <UIcon
-                  name="i-lucide-arrow-right"
-                  class="size-4 transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                  :name="$dir === 'rtl' ? 'i-lucide-arrow-left' : 'i-lucide-arrow-right'"
+                  class="size-4 transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100 rtl:group-hover:-translate-x-1"
                 />
               </template>
             </UButton>
