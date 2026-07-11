@@ -1,120 +1,118 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "محمد الظهيبي - مؤسس ModWeeb | تطوير الواجهات والذكاء الاصطناعي"
+  description: "مرحباً بكم في موقعي الشخصي! أنا محمد الظهيبي، مؤسس وصاحب موقع ModWeeb (مود ويب). شغوف بتطوير المواقع، تصميم واجهات المستخدم، ودمج أدوات الذكاء الاصطناعي في حلول رقمية مبتكرة."
+title: "مرحباً، أنا محمد الظهيبي مؤسس ModWeeb"
+description: "أصمم تجارب رقمية بديهية حيث يلتقي الإبداع بالوظائف. مؤسس موقع ModWeeb، وأهتم بتطوير الواجهات وتجربة المستخدم، مع تركيز خاص على دمج الذكاء الاصطناعي في الخدمات التقنية."
 hero:
   links:
-    - label: "Use this template"
+    - label: "استخدم هذا القالب"
       to: https://github.com/nuxt-ui-templates/portfolio
       color: "neutral"
   images:
     - src: /hero/random-1.avif
-      alt: Random Image 1
+      alt: صورة عشوائية 1
     - src: /hero/random-2.avif
-      alt: Random Image 2
+      alt: صورة عشوائية 2
     - src: /hero/random-3.avif
-      alt: Random Image 3
+      alt: صورة عشوائية 3
     - src: /hero/random-4.avif
-      alt: Random Image 4
+      alt: صورة عشوائية 4
     - src: /hero/random-5.avif
-      alt: Random Image 5
+      alt: صورة عشوائية 5
     - src: /hero/random-6.avif
-      alt: Random Image 6
+      alt: صورة عشوائية 6
     - src: /hero/random-7.avif
-      alt: Random Image 7
+      alt: صورة عشوائية 7
     - src: /hero/random-8.avif
-      alt: Random Image 8
+      alt: صورة عشوائية 8
     - src: /hero/random-9.avif
-      alt: Random Image 9
+      alt: صورة عشوائية 9
 about:
-  title: "About Me"
+  title: "نبذة عني"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    أنا محمد الظهيبي، مؤسس وصاحب موقع ModWeeb (مود ويب)، حيث أكرس وقتي لتطوير محتوى تقني متميز وتجارب مستخدم فائقة الجودة.
+    
+    شغفي الأساسي ينصب في تصميم واجهات المستخدم وتجربة المستخدم، وأسعى دائماً لتقديم حلول رقمية مبتكرة تجمع بين الجماليات والوظائف العملية.
+    
+    بالإضافة إلى ذلك، لدي اهتمام كبير بالذكاء الاصطناعي وأدواته، وأعمل حالياً على دمج هذه التقنيات في موقعي وخدماتي لتقديم قيمة مضافة للمستخدمين.
+    
+    أؤمن بأن المستقبل الرقمي يكمن في التكامل الذكي بين التصميم الإبداعي والتقنيات المتطورة، وهذا ما أسعى لتحقيقه من خلال مشاريعي.
 experience:
-  title: Work Experience
+  title: "الخبرات العملية"
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "مؤسس ومالك"
+      date: "2022 - حتى الآن"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
+        name: ModWeeb (مود ويب)
+        logo: "i-simple-icons-globe"
+        url: "https://modweeb.com"
         color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+    - position: "مطور واجهات أمامية"
+      date: "2021 - 2022"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
+        name: "مشاريع تقنية حرة"
+        logo: "i-simple-icons-code"
+        url: "https://github.com/zerootem"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
+    - position: "مصمم تجربة مستخدم"
       date: "2020 - 2021"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
+        name: "منصة تدريب تقني"
+        logo: "i-simple-icons-vercel"
+        url: "#"
         color: "#5E6AD2"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "محمد يمتلك قدرة استثنائية على تحويل الأفكار التقنية إلى واقع ملموس. عمله على تطوير موقع ModWeeb يُظهر فهماً عميقاً لاحتياجات المستخدمين، مع اهتمام بالغ بأدق التفاصيل في التصميم والأداء."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: 'أحمد السعيد'
+      description: 'خبير تقني ومستشار رقمي'
       avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "ما يميز محمد هو شغفه الحقيقي بتجربة المستخدم وقدرته على دمج تقنيات الذكاء الاصطناعي بسلاسة في التصاميم. تعاونه في مشاريع تقنية كان له أثر كبير في تحسين جودة المنتجات النهائية."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: 'خالد المنصور'
+      description: 'مطور برمجيات وكبير مهندسين'
       avatar:
         src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
-    author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "آخر المقالات"
+  description: "بعض من أفكاري وكتاباتي التقنية الأخيرة"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: "الأسئلة الشائعة"
+  description: "إجابات على الأسئلة الأكثر تكراراً حول خدماتي ومجال عملي"
   categories:
-    - title: Services & Process
+    - title: "خدماتي ومجالات العمل"
       questions:
-        - label: What services do you offer?
+        - label: "ما هي الخدمات التي تقدمها؟"
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            أتخصص في تقديم خدمات تطوير الواجهات الأمامية، تصميم تجربة المستخدم، واستشارات دمج الذكاء الاصطناعي في المواقع والتطبيقات. كما أقدم خدمات إنشاء المدونات التقنية وإدارة المحتوى الرقمي، بالإضافة إلى تطوير مواقع الويب المتجاوبة باستخدام أحدث التقنيات مثل Vue.js و Nuxt.js.
+        - label: "كيف يمكنني الاستفادة من خبرتك في الذكاء الاصطناعي؟"
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            يمكنني مساعدتك في دمج أدوات وتطبيقات الذكاء الاصطناعي في منصتك الرقمية، مثل تحسين محركات البحث بالذكاء الاصطناعي، أتمتة المحتوى، تحليل بيانات المستخدمين، أو تطوير واجهات تفاعلية ذكية. كل ذلك مع الحفاظ على تجربة مستخدم سلسة وجذابة.
+        - label: "هل تعمل مع المشاريع الناشئة؟"
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            بالتأكيد! لدي شغف خاص بالعمل مع المشاريع الناشئة والشركات الصغيرة لمساعدتها على بناء هوية رقمية قوية. أقدم حلولاً مرنة تناسب ميزانياتها، مع التركيز على تحقيق نمو فعّال من خلال التصميم الجيد والتقنيات الحديثة.
+    - title: "التسعير والجداول الزمنية"
       questions:
-        - label: How much does a project typically cost?
+        - label: "كم تكلفة المشروع عادةً؟"
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            تختلف تكلفة المشاريع حسب النطاق والتعقيدات والميزات المطلوبة. تبدأ مشاريعي الشاملة في تطوير الواجهات وتصميم تجربة المستخدم من $3,000، وتتراوح المشاريع المتوسطة بين $5,000 و$15,000. للاستشارات التقنية أو المهام التصميمية المحددة، أتقاضى سعراً بالساعة أو باليوم حسب الاتفاق.
+        - label: "ما هي شروط الدفع؟"
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            أطلب عادةً دفعة مقدمة بنسبة 40% لبدء العمل، على أن يتم دفع الرصيد المتبقي (60%) عند الانتهاء من المشروع بشكل كامل. أقبل الدفع عبر التحويل البنكي وبعض منصات الدفع الإلكترونية حسب الاتفاق.
+        - label: "كم يستغرق تنفيذ المشروع عادةً؟"
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            تعتمد المدة الزمنية على حجم المشروع ومدى تعقيده. المشاريع الصغيرة قد تستغرق 3-4 أسابيع، بينما المشاريع الأكبر قد تمتد من شهرين إلى أربعة أشهر. أقدم دائماً تقديراً زمنياً مفصلاً بعد مرحلة الاستكشاف الأولية.
+        - label: "هل تقدم عقود صيانة شهرية؟"
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            نعم، أقدم عقود صيانة ودعم فني شهرية للعملاء الذين يحتاجون تحديثات مستمرة، تطوير ميزات جديدة، أو دعم تقني مستمر. هذه العقود تُخصص حسب احتياجات كل عميل. يمكننا مناقشة التفاصيل إذا كنت مهتماً بهذا الخيار.
+    - title: "عن ModWeeb والرؤية التقنية"
       questions:
-        - label: What do you enjoy most about your work?
+        - label: "ما الذي ألهمك لتأسيس ModWeeb؟"
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            كان الدافع الأساسي هو شغفي العميق بتطوير المواقع وتصميم الواجهات، ورغبتي في تقديم محتوى تقني عربي متميز يلبي احتياجات المستخدمين. رأيت فرصة لإنشاء منصة تجمع بين الخبرات التقنية، التصميم الإبداعي، واستكشاف تقنيات المستقبل مثل الذكاء الاصطناعي.
+        - label: "كيف ترى مستقبل دمج الذكاء الاصطناعي في المواقع؟"
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            أعتقد أن الذكاء الاصطناعي سيكون جزءاً لا يتجزأ من أي منصة رقمية ناجحة في المستقبل القريب. سيمكننا من تقديم تجارب مستخدم أكثر تخصيصاً وذكاءً. أنا أعمل حاليًا على دمج هذه التقنيات في ModWeeb لتقديم أدوات وخدمات متطورة، وأرى أن التحدي الحقيقي هو في الجمع بين قوة الذكاء الاصطناعي وسلاسة التصميم وجودة تجربة المستخدم.
