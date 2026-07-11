@@ -7,7 +7,7 @@ export default defineAppConfig({
     },
     meetingLink: 'https://cal.com/',
     email: 'modweeb3@gmail.com',
-    available: true
+    available: false  // ✅ تم التعديل هنا
   },
   ui: {
     colors: {
