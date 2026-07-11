@@ -1,32 +1,38 @@
 ---
-title: How I Built My Design System from Scratch
-description: A practical guide to creating your own design system, from initial
-  audit to implementation, and the lessons learned along the way.
-date: 2025-03-05
+title: "كيف بنيت نظام التصميم الخاص بي من الصفر"
+description: "دليل عملي لإنشاء نظام التصميم الخاص بك، بدءاً من التدقيق الأولي وصولاً إلى التنفيذ، والدروس المستفادة على طول الطريق."
+date: 2026-03-05
 image: https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 6
 author:
-  name: Emma Thompson
+  name: محمد الذاهبي
   avatar:
-    src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    src: https://6a5246ff6f6c51bd39014cef.imgix.net/sandbox/%D9%A2%D9%A0%D9%A2%D9%A6%D9%A0%D9%A7%D9%A1%D9%A1_%D9%A0%D9%A2%D9%A3%D9%A9%D9%A4%D9%A9.png
+    alt: محمد الذاهبي
 ---
 
-After years of starting each project with a blank Figma file, I finally took the plunge and created my own comprehensive design system. The process was both challenging and incredibly rewarding, and I wanted to share my approach for other designers considering the same journey.
+بعد سنوات من بدء كل مشروع بملف Figma فارغ، قررت أخيراً أن أخوض التجربة وأبني نظام التصميم الشامل الخاص بي. كانت العملية صعبة ومجزية بشكل لا يصدق، وأردت مشاركة منهجيتي مع المصممين الآخرين الذين يفكرون في خوض هذه الرحلة.
 
-I started by auditing five of my recent projects, identifying common patterns and components that appeared across different designs. This revealed inconsistencies in my work that I hadn't noticed before—seven slightly different button styles, inconsistent spacing rules, and text styles that varied without clear purpose.
+بدأت بمراجعة خمسة من مشاريعي الأخيرة، وتحديد الأنماط والمكونات المشتركة التي ظهرت عبر التصاميم المختلفة. كشف هذا عن تناقضات في عملي لم ألاحظها من قبل—سبعة أنماط مختلفة قليلاً للأزرار، وقواعد تباعد غير متناسقة، وأنماط نصوص تختلف دون غرض واضح.
 
-Rather than creating a rigid system upfront, I built it iteratively through a real client project. For the EcoTrack app, I documented each component as I designed it, creating a living system that evolved with the project's needs.
+بدلاً من إنشاء نظام صارم مسبقاً، بنيته بشكل تكاملي من خلال مشروع عميل حقيقي. بالنسبة **لمنصة ModWeeb للمحتوى الصوتي والتفاعلي**، قمت بتوثيق كل مكون أثناء تصميمه، مما خلق نظاماً حياً يتطور مع احتياجات المشروع.
 
-The core of my system includes:
+يتضمن جوهر نظامي:
 
-- A flexible color system with semantic naming conventions
-- Typography scales based on the golden ratio
-- Component variants with clear usage guidelines
-- Spacing and layout rules that maintain consistency across devices
+- نظام ألوان مرن مع اصطلاحات تسمية دلالية
+- مقاييس طباعة تعتمد على النسبة الذهبية
+- متغيرات المكونات مع إرشادات استخدام واضحة
+- قواعد التباعد والتخطيط التي تحافظ على الاتساق عبر الأجهزة
 
-The biggest challenge wasn't technical but psychological—learning to trust the system instead of reinventing solutions for each new problem. But the payoff has been enormous: my design process is now 40% faster, client revisions have decreased significantly, and handoff to development is much smoother.
+لم يكن التحدي الأكبر تقنياً، بل نفسياً—تعلم كيفية الوثوق بالنظام بدلاً من إعادة اختراع الحلول لكل مشكلة جديدة. لكن العائد كان هائلاً: عملية التصميم أصبحت أسرع بنسبة 40%، وانخفضت مراجعات العملاء بشكل ملحوظ، وأصبح التسليم للتطوير أكثر سلاسة.
 
-If you're considering building your own system, my advice is to start small with core elements, test them on real projects, and document as you go. A good design system should feel like a trusted collaborator, not a set of restrictions.
+إذا كنت تفكر في بناء نظامك الخاص، نصيحتي هي أن تبدأ صغيراً بالعناصر الأساسية، وتختبرها على مشاريع حقيقية، وتوثق أثناء العمل. نظام التصميم الجيد يجب أن يشعر وكأنه متعاون موثوق، وليس مجموعة من القيود.
 
-I've attached a template of my component documentation method below—feel free to adapt it for your own workflow!
+لقد أرفقت قالباً لطريقة توثيق المكونات الخاصة بي أدناه—لا تتردد في تكييفه مع سير عملك الخاص!
+
+---
+
+للتواصل:
+- البريد الإلكتروني: modweeb3@gmail.com
+- رقم الهاتف: +967779244322
+- حساب GitHub: [modweeb](https://github.com/modweeb)
