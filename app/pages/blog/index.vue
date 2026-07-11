@@ -15,7 +15,7 @@ const { data: posts } = await useAsyncData('blogs', () =>
 if (!posts.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'blogs posts not found',
+    statusMessage: 'blog posts not found',
     fatal: true
   })
 }
@@ -40,8 +40,8 @@ defineOgImage('Portfolio', { title, description })
       :description="page.description"
       :links="page.links"
       :ui="{
-        title: 'mx-0! text-left',
-        description: 'mx-0! text-left',
+        title: 'mx-0! text-start',     // ✅ تم التعديل
+        description: 'mx-0! text-start', // ✅ تم التعديل
         links: 'justify-start'
       }"
     />
