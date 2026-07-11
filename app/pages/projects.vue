@@ -36,8 +36,8 @@ defineOgImage('Portfolio', { title, description })
       :description="page.description"
       :links="page.links"
       :ui="{
-        title: 'mx-0! text-left',
-        description: 'mx-0! text-left',
+        title: 'mx-0! text-start',     // ✅ تم التعديل
+        description: 'mx-0! text-start', // ✅ تم التعديل
         links: 'justify-start'
       }"
     >
@@ -93,10 +93,10 @@ defineOgImage('Portfolio', { title, description })
               :to="project.url"
               class="text-sm text-primary flex items-center"
             >
-              View Project
+              عرض المشروع  <!-- ✅ تمت الترجمة -->
               <UIcon
-                name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                name="i-lucide-arrow-left"
+                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100 rtl:rotate-180"
               />
             </ULink>
           </template>
