@@ -1,6 +1,8 @@
-title: Designing Interfaces, Building Experiences.
-description: I've worked on a variety of projects, focusing on creating intuitive digital experiences where thoughtful design meets clean code. Here are some highlights I'm proud of, showcasing my process from concept to execution.
+title: "تصميم الواجهات، بناء التجارب الرقمية"
+description: "عملت على مجموعة متنوعة من المشاريع، مع التركيز على إنشاء تجارب رقمية بديهية حيث يلتقي التصميم المدروس بالكود النظيف. إليك بعض أبرز المشاريع التي أفتخر بها، والتي تعرض رحلتي من الفكرة إلى التنفيذ."
 links:
-  - label: "Let's talk"
+  - label: "تواصل معي"
     color: "neutral"
-  - label: 'Email me'
+    to: "https://github.com/modweeb"
+  - label: "راسلني بالبريد"
+    to: "mailto:modweeb3@gmail.com"
