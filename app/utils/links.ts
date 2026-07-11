@@ -1,23 +1,23 @@
 import type { NavigationMenuItem } from '@nuxt/ui'
 
 export const navLinks: NavigationMenuItem[] = [{
-  label: 'Home',
+  label: 'الرئيسية',
   icon: 'i-lucide-home',
   to: '/'
 }, {
-  label: 'Projects',
+  label: 'المشاريع',
   icon: 'i-lucide-folder',
   to: '/projects'
 }, {
-  label: 'Blog',
+  label: 'المدونة',
   icon: 'i-lucide-file-text',
   to: '/blog'
 }, {
-  label: 'Speaking',
+  label: 'المحادثات',
   icon: 'i-lucide-mic',
   to: '/speaking'
 }, {
-  label: 'About',
+  label: 'نبذة عني',
   icon: 'i-lucide-user',
   to: '/about'
 }]
