@@ -15,7 +15,7 @@ useSeoMeta({
   ogTitle: page.value?.seo.title || page.value?.title,
   description: page.value?.seo.description || page.value?.description,
   ogDescription: page.value?.seo.description || page.value?.description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png'
+  ogImage: 'https://6a5246ff6f6c51bd39014cef.imgix.net/sandbox/%D9%A2%D9%A0%D9%A2%D9%A6%D9%A0%D9%A7%D9%A1%D9%A1_%D9%A0%D9%A2%D9%A3%D9%A9%D9%A4%D9%A9.png''
 })
 </script>
 
