@@ -13,12 +13,12 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'ar'  // ✅ تغيير من 'en' إلى 'ar'
   }
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
+  titleTemplate: '%s - محمد الذاهبي | ModWeeb',  // ✅ تغيير النص
   twitterCard: 'summary_large_image'
 })
 
