@@ -11,7 +11,7 @@ defineProps<{
     :title="page.experience.title"
     :ui="{
       container: 'p-0! gap-4 sm:gap-4',
-      title: 'text-start text-xl sm:text-xl lg:text-2xl font-medium', // ✅ text-left → text-start
+      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
       description: 'mt-2'
     }"
   >
@@ -24,7 +24,7 @@ defineProps<{
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center text-nowrap gap-2 rtl:flex-row-reverse" // ✅ إضافة rtl:flex-row-reverse لعكس ترتيب العناصر
+          class="text-muted flex items-center text-nowrap gap-2"
         >
           <p class="text-sm">
             {{ experience.date }}
@@ -53,5 +53,5 @@ defineProps<{
 </template>
 
 <style scoped>
-/* يمكن إضافة تنسيقات إضافية هنا إن لزم الأمر */
+
 </style>
