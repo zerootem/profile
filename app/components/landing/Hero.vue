@@ -12,8 +12,7 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto text-start', // ✅ إضافة text-start
-      description: 'text-start', // ✅ إضافة text-start
+      title: 'text-shadow-md max-w-lg mx-auto',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -112,7 +111,7 @@ defineProps<{
             variant="ghost"
             class="gap-2"
             :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'متاح لمشاريع جديدة' : 'غير متاح حالياً'" // ✅ ترجمة النص
+            :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
           >
             <template #leading>
               <span class="relative flex size-2">
@@ -159,7 +158,7 @@ defineProps<{
 
     <UMarquee
       pause-on-hover
-      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s] rtl:[--duration:40s]"
+      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
     >
       <Motion
         v-for="(img, index) in page.hero.images"
@@ -183,9 +182,7 @@ defineProps<{
           width="234"
           height="234"
           class="rounded-lg aspect-square object-cover"
-          :class="[
-            index % 2 === 0 ? '-rotate-2 rtl:rotate-2' : 'rotate-2 rtl:-rotate-2' // ✅ عكس اتجاه الدوران في RTL
-          ]"
+          :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
         />
       </Motion>
