@@ -9,8 +9,8 @@ hero:
       icon: "i-lucide-globe"
       to: https://modweeb.com
       color: "neutral"
-    - label: "Use this template"
-      to: https://github.com/modweeb
+    - label: "استخدم هذا القالب "
+      to: https://github.com/zerootem/profile
       color: "neutral"
   images:
     - src: /hero/random-1.avif
