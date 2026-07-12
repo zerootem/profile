@@ -12,7 +12,8 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto',
+      title: 'text-shadow-md max-w-lg mx-auto text-start',
+      description: 'text-start',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -101,31 +102,16 @@ defineProps<{
           delay: 0.5
         }"
       >
+        <!-- ✅ تم إزالة زر الحالة نهائياً -->
         <div
           v-if="page.hero.links"
-          class="flex items-center gap-2"
+          class="flex items-center gap-2 flex-wrap justify-center"
         >
-          <UButton v-bind="page.hero.links[0]" />
           <UButton
-            :color="global.available ? 'success' : 'error'"
-            variant="ghost"
-            class="gap-2"
-            :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
-          >
-            <template #leading>
-              <span class="relative flex size-2">
-                <span
-                  class="absolute inline-flex size-full rounded-full opacity-75"
-                  :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
-                />
-                <span
-                  class="relative inline-flex size-2 scale-90 rounded-full"
-                  :class="global.available ? 'bg-success' : 'bg-error'"
-                />
-              </span>
-            </template>
-          </UButton>
+            v-for="(link, index) in page.hero.links"
+            :key="index"
+            v-bind="link"
+          />
         </div>
       </Motion>
 
@@ -133,7 +119,6 @@ defineProps<{
         <Motion
           v-for="(link, index) of footer?.links"
           :key="index"
-
           :initial="{
             scale: 1.1,
             opacity: 0,
@@ -158,7 +143,7 @@ defineProps<{
 
     <UMarquee
       pause-on-hover
-      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
+      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s] rtl:[--duration:40s]"
     >
       <Motion
         v-for="(img, index) in page.hero.images"
@@ -182,7 +167,9 @@ defineProps<{
           width="234"
           height="234"
           class="rounded-lg aspect-square object-cover"
-          :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
+          :class="[
+            index % 2 === 0 ? '-rotate-2 rtl:rotate-2' : 'rotate-2 rtl:-rotate-2'
+          ]"
           v-bind="img"
         />
       </Motion>
