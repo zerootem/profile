@@ -13,10 +13,6 @@ hero:
       icon: "i-simple-icons-github"
       to: "https://github.com/modweeb"
       color: "neutral"
-    - label: "البريد الإلكتروني"
-      icon: "i-lucide-mail"
-      to: "mailto:modweeb3@gmail.com"
-      color: "neutral"
   images:
     - src: /hero/random-1.avif
       alt: صورة عشوائية 1
@@ -46,20 +42,20 @@ experience:
   title: "الخبرات المهنية"
   items:
     - position: "المؤسس والمطور الرئيسي في"
-      date: "2024 - 2026"
+      date: "حتى الآن - 2026"
       company:
         name: ModWeeb
         logo: "i-simple-icons-web"
         url: "https://modweeb.com"
         color: "#3B82F6"
-    - position: "مطور واجهات أمامية (Front-End) في"
+    - position: "مطور واجهات أمامية في"
       date: "2022 - 2024"
       company:
-        name: أعمال حرة (Freelance)
+        name: أعمال حرة
         logo: "i-simple-icons-freelancer"
         url: "#"
         color: "#29B2FE"
-    - position: "مختص في تحسين محركات البحث والأداء"
+    - position: "مختص في تحسين محركات البحث"
       date: "2021 - 2022"
       company:
         name: مشاريع رقمية
