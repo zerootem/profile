@@ -61,9 +61,8 @@ experience:
         logo: "i-simple-icons-google"
         url: "#"
         color: "#EA4335"
-# تم حذف قسم testimonials بالكامل
 blog:
-  title: "أحدث المقالات التقنية"
+  title: "المدونة"
   description: "أفكار وخبرات في تطوير الويب والأدوات الرقمية"
 faq:
   title: "الأسئلة الشائعة"
