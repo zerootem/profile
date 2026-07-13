@@ -12,7 +12,6 @@ if (!posts.value) {
   throw createError({ statusCode: 404, statusMessage: 'blogs posts not found', fatal: true })
 }
 
-// تنسيق التاريخ بالعربية
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('ar-EG', {
     year: 'numeric',
@@ -27,14 +26,14 @@ const formatDate = (dateString: string) => {
     :title="page.blog.title"
     :description="page.blog.description"
     :ui="{
-      container: 'px-0 pt-0! sm:gap-6 lg:gap-8',
+      container: 'px-0 pt-0! sm:gap-2 lg:gap-4',
       title: 'text-right text-xl sm:text-xl lg:text-2xl font-medium',
       description: 'text-right mt-2 text-sm sm:text-md lg:text-sm text-muted'
     }"
   >
     <UBlogPosts
       orientation="vertical"
-      class="gap-4 lg:gap-y-4 mt-6"
+      class="gap-4 lg:gap-y-4 mt-2"
     >
       <UBlogPost
         v-for="(post, index) in posts"
@@ -49,14 +48,12 @@ const formatDate = (dateString: string) => {
           header: 'hidden'
         }"
       >
-        <!-- عرض التاريخ -->
         <template #leading>
           <span class="text-sm text-muted min-w-[100px]">
             {{ formatDate(post.date) }}
           </span>
         </template>
 
-        <!-- زر "قراءة المقال" -->
         <template #footer>
           <UButton
             size="xs"
