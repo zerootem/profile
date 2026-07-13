@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        dir: 'rtl', // اتجاه الصفحة من اليمين إلى اليسار
-        lang: 'ar'  // تحديد اللغة العربية
+        dir: 'rtl',
+        lang: 'ar'
       }
     }
   },
@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image',
     'motion-v/nuxt'
+    // تم إزالة 'nuxt-sitemap'
   ],
 
   devtools: {
@@ -55,4 +56,6 @@ export default defineNuxtConfig({
   ogImage: {
     zeroRuntime: true
   }
+
+  // تم إزالة إعدادات sitemap
 })
