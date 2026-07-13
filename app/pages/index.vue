@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// جلب بيانات الصفحة الرئيسية
 const { data: page } = await useAsyncData('index', () => {
   return queryCollection('index').first()
 })
@@ -10,12 +11,17 @@ if (!page.value) {
   })
 }
 
+// جلب المقالات
+const { data: posts } = await useAsyncData('blog-posts', () =>
+  queryCollection('blog').order('date', 'DESC').limit(3).all()
+)
+
 useSeoMeta({
   title: page.value?.seo.title || page.value?.title,
   ogTitle: page.value?.seo.title || page.value?.title,
   description: page.value?.seo.description || page.value?.description,
   ogDescription: page.value?.seo.description || page.value?.description,
-  // ogImage: 'رابط_صورتك'  // علّق أو احذف هذا السطر
+  ogImage: 'https://6a5246ff6f6c51bd39014cef.imgix.net/sandbox/%D9%A2%D9%A0%D9%A2%D9%A6%D9%A0%D9%A7%D9%A1%D9%A1_%D9%A0%D9%A2%D9%A3%D9%A9%D9%A4%D9%A9.png'
 })
 </script>
 
@@ -30,8 +36,8 @@ useSeoMeta({
       <LandingAbout :page />
       <LandingWorkExperience :page />
     </UPageSection>
-    <LandingBlog :page />
-    <LandingTestimonials :page />
+    <LandingBlog :page :posts="posts" />
+    <!-- تم حذف LandingTestimonials -->
     <LandingFAQ :page />
   </UPage>
 </template>

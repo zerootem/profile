@@ -12,8 +12,8 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto text-start',
-      description: 'text-start',
+      title: 'text-shadow-md max-w-lg mx-auto text-center',
+      description: 'text-center max-w-2xl mx-auto',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -81,7 +81,9 @@ defineProps<{
           delay: 0.3
         }"
       >
-        {{ page.description }}
+        <p class="text-center max-w-2xl mx-auto">
+          {{ page.description }}
+        </p>
       </Motion>
     </template>
 
@@ -102,7 +104,7 @@ defineProps<{
           delay: 0.5
         }"
       >
-        <!-- ✅ تم إزالة زر الحالة نهائياً -->
+        <!-- عرض جميع الأزرار من page.hero.links -->
         <div
           v-if="page.hero.links"
           class="flex items-center gap-2 flex-wrap justify-center"
@@ -115,6 +117,7 @@ defineProps<{
         </div>
       </Motion>
 
+      <!-- أيقونات التواصل الاجتماعي -->
       <div class="gap-x-4 inline-flex mt-4">
         <Motion
           v-for="(link, index) of footer?.links"
@@ -143,7 +146,7 @@ defineProps<{
 
     <UMarquee
       pause-on-hover
-      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s] rtl:[--duration:40s]"
+      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
     >
       <Motion
         v-for="(img, index) in page.hero.images"
@@ -167,9 +170,7 @@ defineProps<{
           width="234"
           height="234"
           class="rounded-lg aspect-square object-cover"
-          :class="[
-            index % 2 === 0 ? '-rotate-2 rtl:rotate-2' : 'rotate-2 rtl:-rotate-2'
-          ]"
+          :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
         />
       </Motion>

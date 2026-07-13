@@ -12,12 +12,8 @@ defineProps<{
     :description="page.about.description"
     :ui="{
       container: 'p-0!',
-      title: 'text-start text-xl sm:text-xl lg:text-2xl font-medium',      // ✅ text-left → text-start
-      description: 'text-start mt-3 text-sm sm:text-md lg:text-sm text-muted' // ✅ text-left → text-start
+      title: 'text-right text-xl sm:text-xl lg:text-2xl font-medium',
+      description: 'text-right mt-3 text-sm sm:text-md lg:text-sm text-muted'
     }"
   />
 </template>
-
-<style scoped>
-/* يمكن إضافة تنسيقات إضافية هنا إن لزم الأمر */
-</style>

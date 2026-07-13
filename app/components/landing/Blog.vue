@@ -11,6 +11,15 @@ const { data: posts } = await useAsyncData('index-blogs', () =>
 if (!posts.value) {
   throw createError({ statusCode: 404, statusMessage: 'blogs posts not found', fatal: true })
 }
+
+// تنسيق التاريخ بالعربية
+const formatDate = (dateString: string) => {
+  return new Date(dateString).toLocaleDateString('ar-EG', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  })
+}
 </script>
 
 <template>
@@ -19,13 +28,13 @@ if (!posts.value) {
     :description="page.blog.description"
     :ui="{
       container: 'px-0 pt-0! sm:gap-6 lg:gap-8',
-      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'text-left mt-2 text-sm sm:text-md lg:text-sm text-muted'
+      title: 'text-right text-xl sm:text-xl lg:text-2xl font-medium',
+      description: 'text-right mt-2 text-sm sm:text-md lg:text-sm text-muted'
     }"
   >
     <UBlogPosts
       orientation="vertical"
-      class="gap-4 lg:gap-y-4"
+      class="gap-4 lg:gap-y-4 mt-6"
     >
       <UBlogPost
         v-for="(post, index) in posts"
@@ -40,16 +49,24 @@ if (!posts.value) {
           header: 'hidden'
         }"
       >
+        <!-- عرض التاريخ -->
+        <template #leading>
+          <span class="text-sm text-muted min-w-[100px]">
+            {{ formatDate(post.date) }}
+          </span>
+        </template>
+
+        <!-- زر "قراءة المقال" -->
         <template #footer>
           <UButton
             size="xs"
             variant="link"
             class="px-0 gap-0"
-            label="Read Article"
+            label="قراءة المقال"
           >
             <template #trailing>
               <UIcon
-                name="i-lucide-arrow-right"
+                name="i-lucide-arrow-left"
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
               />
             </template>

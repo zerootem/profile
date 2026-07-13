@@ -1,9 +1,13 @@
 import type { NavigationMenuItem } from '@nuxt/ui'
 
 export const navLinks: NavigationMenuItem[] = [{
-  label: 'الرئيسية',
-  icon: 'i-lucide-home',
-  to: '/'
+  label: 'نبذة عني',
+  icon: 'i-lucide-user',
+  to: '/about'
+}, {
+  label: 'المحادثات',
+  icon: 'i-lucide-mic',
+  to: '/speaking'
 }, {
   label: 'المشاريع',
   icon: 'i-lucide-folder',
@@ -13,11 +17,7 @@ export const navLinks: NavigationMenuItem[] = [{
   icon: 'i-lucide-file-text',
   to: '/blog'
 }, {
-  label: 'المحادثات',
-  icon: 'i-lucide-mic',
-  to: '/speaking'
-}, {
-  label: 'نبذة عني',
-  icon: 'i-lucide-user',
-  to: '/about'
+  label: 'الرئيسية',
+  icon: 'i-lucide-home',
+  to: '/'
 }]

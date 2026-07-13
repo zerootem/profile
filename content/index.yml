@@ -9,7 +9,7 @@ hero:
       icon: "i-lucide-globe"
       to: https://modweeb.com
       color: "neutral"
-    - label: "استخدم هذا القالب "
+    - label: "استخدم هذا القالب"
       to: https://github.com/zerootem/profile
       color: "neutral"
   images:
@@ -61,28 +61,7 @@ experience:
         logo: "i-simple-icons-google"
         url: "#"
         color: "#EA4335"
-testimonials:
-  - quote: "يمتلك محمد الذاهبي رؤية واضحة في تطوير الويب وبناء المنتجات الرقمية. من خلال ModWeeb استطاع الجمع بين التصميم الحديث، والأداء الموثوق، وتجربة المستخدم السلسة. اهتمامه بالتفاصيل وشغفه بالتقنية ينعكسان في كل مشروع يعمل عليه، مما يجعل أعماله مميزة وذات قيمة حقيقية للمستخدمين."
-    author:
-      name: "سارة تشين"
-      description: "مديرة المنتجات في Bloom Finance"
-      avatar:
-        src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
-        srcset: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
-  - quote: "كان التعاون مع محمد الذاهبي نقطة تحول حقيقية لمشروعنا. لم يقتصر دوره على تنفيذ الأفكار، بل ساهم في تطويرها وتحسينها من خلال فهم عميق لاحتياجات المستخدمين. خبرته في تصميم الواجهات وتطوير الويب ساعدت على تحويل الرؤية إلى تجربة رقمية متكاملة وسهلة الاستخدام."
-    author:
-      name: "مايكل رودريغيز"
-      description: "الشريك المؤسس في Wavelength Music"
-      avatar:
-        src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
-        srcset: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
-  - quote: "يتميز محمد الذاهبي بقدرته على تحويل الأفكار والتحديات التقنية المعقدة إلى حلول عملية وسهلة الاستخدام. منهجيته تجمع بين الإبداع والتحليل الدقيق، مما يضمن تقديم منتجات رقمية تحقق التوازن بين الجمال البصري والكفاءة التقنية. هذا ما يجعل العمل معه تجربة استثنائية ومثمرة."
-    author:
-      name: "الدكتورة عائشة جونسون"
-      description: "رئيسة الابتكار في GreenTech Solutions"
-      avatar:
-        src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
-        srcset: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"
+# تم حذف قسم testimonials بالكامل
 blog:
   title: "أحدث المقالات التقنية"
   description: "أفكار وخبرات في تطوير الويب والأدوات الرقمية"

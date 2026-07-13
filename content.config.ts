@@ -15,9 +15,11 @@ const createButtonSchema = () => z.object({
   target: z.enum(['_blank', '_self']).optional()
 })
 
+// ✅ إضافة srcset إلى createImageSchema
 const createImageSchema = () => z.object({
   src: z.string().editor({ input: 'media' }),
-  alt: z.string()
+  alt: z.string(),
+  srcset: z.string().optional() // ← هذا هو التغيير المهم
 })
 
 const createAuthorSchema = () => z.object({
@@ -47,7 +49,7 @@ export default defineContentConfig({
         about: createBaseSchema(),
         experience: createBaseSchema().extend({
           items: z.array(z.object({
-            date: z.string(),  // ✅ التعديل الصحيح (من z.date() إلى z.string())
+            date: z.string(), // ✅ تغيير إلى string
             position: z.string(),
             company: z.object({
               name: z.string(),
@@ -82,7 +84,7 @@ export default defineContentConfig({
         image: z.string().nonempty().editor({ input: 'media' }),
         url: z.string().nonempty(),
         tags: z.array(z.string()),
-        date: z.date()  // يبقى z.date() لأن التواريخ هنا بصيغة صحيحة مثل 2024
+        date: z.date()
       })
     }),
     blog: defineCollection({
@@ -90,7 +92,7 @@ export default defineContentConfig({
       source: 'blog/*.md',
       schema: z.object({
         minRead: z.number(),
-        date: z.date(),  // يبقى z.date() لأن التواريخ بصيغة مثل 2026-01-28
+        date: z.date(),
         image: z.string().nonempty().editor({ input: 'media' }),
         author: createAuthorSchema()
       })
@@ -113,7 +115,7 @@ export default defineContentConfig({
         events: z.array(z.object({
           category: z.enum(['Live talk', 'Podcast', 'Conference']),
           title: z.string(),
-          date: z.date(),  // يبقى z.date() لأن التواريخ بصيغة مثل 2026-10-26
+          date: z.date(),
           location: z.string(),
           url: z.string().optional()
         }))

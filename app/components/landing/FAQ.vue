@@ -15,9 +15,10 @@ const items = computed(() => {
   })
 })
 
+// ✅ إضافة justify-end و text-right
 const ui = {
   root: 'flex items-center gap-4 w-full',
-  list: 'relative flex bg-transparent dark:bg-transparent gap-2 px-0',
+  list: 'relative flex bg-transparent dark:bg-transparent gap-2 px-0 justify-end',
   indicator: 'absolute top-[4px] duration-200 ease-out focus:outline-none rounded-lg bg-elevated/60',
   trigger: 'px-3 py-2 rounded-lg hover:bg-muted/50 data-[state=active]:text-highlighted data-[state=inactive]:text-muted',
   label: 'truncate'
@@ -30,11 +31,13 @@ const ui = {
     :description="page.faq.description"
     :ui="{
       container: 'px-0 pt-0! gap-4 sm:gap-4',
-      title: 'text-start text-xl sm:text-xl lg:text-2xl font-medium',      // ✅ text-left → text-start
-      description: 'text-start mt-2 text-sm sm:text-md lg:text-sm text-muted' // ✅ text-left → text-start
+      title: 'text-right text-xl sm:text-xl lg:text-2xl font-medium',
+      description: 'text-right mt-2 text-sm sm:text-md lg:text-sm text-muted'
     }"
   >
+    <!-- ✅ إضافة dir="rtl" إلى UTabs -->
     <UTabs
+      dir="rtl"
       :items
       orientation="horizontal"
       :ui
