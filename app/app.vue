@@ -23,7 +23,7 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - محمد الذاهبي | ModWeeb',
+  titleTemplate: '%s | محمد الذاهبي - مطور ويب ومؤسس ModWeeb',
   twitterCard: 'summary_large_image',
   robots: 'index, follow'
 })
