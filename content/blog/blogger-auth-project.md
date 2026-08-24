@@ -2,7 +2,7 @@
 title: "نظام مصادقة متكامل لمدونات بلوجر: مشروع مود ويب"
 description: "استعراض لمشروع نظام المصادقة المتكامل لمدونات بلوجر، المبني بـ SolidJS و Vue و Vite و TypeScript، والذي يضيف ميزات متقدمة مثل تسجيل الدخول عبر Google وإدارة الحسابات والمجتمع والإحصائيات."
 date: 2026-08-25
-image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: /images/blogger-auth-system-cover.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 5
 author:
   name: محمد الذاهبي
